@@ -4,16 +4,25 @@
   "description": "React project template\r by ksharovarsky",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile": "webpack",
+    "start": "node server.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "babel": "^6.23.0",
+    "babel-core": "^6.24.0",
     "babel-loader": "^6.4.1",
     "babel-preset-latest": "^6.24.0",
     "babel-preset-react": "^6.23.0",
-    "webpack": "^2.2.1"
+    "express": "^4.15.2",
+    "webpack": "^2.2.1",
+    "webpack-dev-middleware": "^1.10.1"
+  },
+  "dependencies": {
+    "react": "^15.4.2",
+    "react-dom": "^15.4.2"
   }
 }
